@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>qb-policeforensics</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
+        <script src="./script.js" defer></script>
+        <script src="https://kit.fontawesome.com/d1940e6976.js" crossorigin="anonymous"></script>
+    </head>
+</head>
+<body>
+    <container class="view-container">
+        <section class="UserInfo">
+            <div class="navtop">
+                <img src="./Images/LSPD.png" alt="logo" class="logo">
+            </div>
+       
+        <form action="index.html" method="post">
+        <fieldset id="personalinfo"> 
+            <h2>Personal Information</h2>
+            <label for="firstname"> First Name:</label>
+            <input type="text" id="name" name="firstname" placeholder="John Doe">
+            <label for="lastname"> Last Name:</label>
+            <input type="text" id="lastname" name="lastname" placeholder="John Doe">
+            <label for="gender"> Gender: </label>
+            <input type="text" id="gender" name="gender" placeholder="Male/Female/Other">
+            <label for="phonenumber"> Phone Number: </label>
+            <input type="text" id="phonenumber" name="phonenumber" placeholder="123-456-7890">
+            <label for="fingerprintid"> Fingerprint ID: </label>
+            <input type="text" id="fingerprintid" name="fingerprintid" placeholder="123456789">
+            <label for="physicaldescription"> Physical Description: </label>
+            <textarea id="physicaldescription" name="physicaldescription" rows="5" cols="30" placeholder="Describe the person here..."></textarea>
+        </fieldset>
+        <fieldset id="ganginfo">
+        <h2>Gang Information</h2>
+            <label for="gangmemmber"> Gang Member: </label>
+            <input type="text" id="gangmemmber" name="gangmemmber" placeholder="Yes/No">
+            <label for="gangname"> Gang Name: </label>
+            <input type="text" id="gangname" name="gangname" placeholder="Gang Name">
+            <label for="position"> Position: </label>
+            <input type="text" id="position" name="position" placeholder="Position">
+        </fieldset>
+        <fieldset id="caseinfo">
+        <h2>Case Info</h2>
+            <label for="caseid"> Case ID / Case File #: </label>
+            <input type="text" id="caseid" name="caseid" placeholder="123456789">
+            <label for="casedate"> Date Of Incident: </label>
+            <input type="text" id="casedate" name="casedate" placeholder="MM/DD/YYYY">
+            <label for="casetime"> Time: </label>
+            <input type="text" id="casetime" name="casetime" placeholder="HH:MM">
+            <label for="caselocation"> Location: </label>
+            <input type="text" id="caselocation" name="caselocation" placeholder="Location">
+            <label for="caseofficer"> Officer: </label>
+            <input type="text" id="caseofficer" name="caseofficer" placeholder="Officer">
+            <label for="incidentexplanation"> Incident Explantion: </label>
+            <textarea id="incidentexplanation" name="incidentexplanation" rows="8" cols="50" placeholder="Describe the incident here..."></textarea>
+            <label for="evidence"> Evidence [Links]: </label>
+            <textarea id="evidence" name="evidence" rows="8" cols="50" placeholder="Evidence"></textarea>
+        </fieldset>
+    </container>
+        </section>
+
+
+</body>
