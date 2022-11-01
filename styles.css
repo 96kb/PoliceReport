@@ -10,16 +10,18 @@
 
 .navtop {
     display: flex;
-    width: 40px;
+    width: 40rem;
     height: 40px;
-    padding-bottom: 25px;
+    padding-bottom: 350px;
 }
 
 .navtop img {
     width: 80px;
     height: 80px;
-    padding-bottom: 25px;
+    padding-bottom: 0px;
     align-items: center;
+    float: none;
+    margin: auto;
 }
 
 .UserInfo {
@@ -32,6 +34,8 @@
     background-color: gray;
     border-radius: 1rem;
     font-family: 'Teko', sans-serif;
+    margin: 5px auto;
+    overflow: auto;
 }
 
 .personalinfo {
@@ -56,3 +60,27 @@ h1 {
     justify-content: space-between;
     width: 100%;
 }
+
+input[type=text] {
+    display: block;
+    margin: 5px 0;
+  }
+  input[type=radio] + label {
+    margin-right: 10px;
+  }
+  label,
+  input[type=radio] {
+    cursor: pointer;
+  }
+  fieldset {
+    border: none;
+  }
+
+  .logo
+    {
+        width: 80px;
+        height: 80px;
+        padding-bottom: 0px;
+        align-items: center;
+        float: none;
+    }
