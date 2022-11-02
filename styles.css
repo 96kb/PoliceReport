@@ -39,7 +39,9 @@
 }
 
 .personalinfo {
-    display: table-cell;
+    /*display: table-cell;*/
+    table-layout: fixed;
+    width: 100%;
 }
 
 textarea {
@@ -84,4 +86,25 @@ input[type=text] {
         padding-bottom: 0px;
         align-items: center;
         float: none;
+    }
+
+
+
+    input[type=button] {
+        background: lightGray;
+        width: 15%;
+        font-size: 20px;
+        font-weight: 900;
+        border-radius: 7px;
+        margin-left: 13px;
+        margin-top: 10px;
+    }
+            input[type=button]:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+            input[type=button]:hover {
+        background-color: #003300;
+        color: white;
     }
